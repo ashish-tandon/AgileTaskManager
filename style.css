@@ -8,7 +8,8 @@ body {
 
 .container {
     max-width: 600px;
-    margin: auto;
+    margin: auto; /* Center the container horizontally */
+    margin-top: 10vh; /* Add vertical margin to center the container vertically */
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 8px;
