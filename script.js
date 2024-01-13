@@ -16,12 +16,13 @@ function displayTasks() {
     taskList.innerHTML = '';
 
     tasks.forEach((task, index) => {
-        const taskItem = document.createElement('div');
-        taskItem.innerHTML = `
-            ${task}
-            <button onclick="removeTask(${index})">Delete</button>
+        const taskBox = document.createElement('div');
+        taskBox.className = 'task-box';
+        taskBox.innerHTML = `
+            <span class="task-text">${task}</span>
+            <i class="fas fa-times delete-icon" onclick="removeTask(${index})"></i>
         `;
-        taskList.appendChild(taskItem);
+        taskList.appendChild(taskBox);
     });
 }
 
