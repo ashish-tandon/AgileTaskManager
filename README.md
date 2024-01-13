@@ -1,6 +1,6 @@
 # Agile Task Management Project
 
-This is a simple task management application implemented using HTML, CSS, and JavaScript. The project follows agile principles to enhance collaboration, flexibility, and responsiveness in the development process.
+This is a task management application implemented using HTML, CSS, and JavaScript. The project follows agile principles to enhance collaboration, flexibility, and responsiveness in the development process.
 
 ## Project Structure
 
