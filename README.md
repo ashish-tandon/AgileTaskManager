@@ -31,3 +31,4 @@ Regular feedback loops were established, allowing stakeholders to provide input 
 2. Open `index.html` in a web browser.
 
 Feel free to contribute to the project and enhance its features following agile development practices.
+  
